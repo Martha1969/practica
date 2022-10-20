@@ -13,5 +13,10 @@ namespace Practica
         {
 
         }
+
+        protected void BtnPersonas_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WFPersonas.aspx");
+        }
     }
 }
