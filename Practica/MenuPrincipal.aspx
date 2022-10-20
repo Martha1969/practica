@@ -1,6 +1,14 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MenuPrincipal.aspx.cs" Inherits="Practica.MenuPrincipal" %>
 
 <!DOCTYPE html>
+<script runat="server">
+
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Roles.aspx");
+    }
+</script>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -16,7 +24,7 @@
                         <asp:Button ID="Button1" runat="server" Text="Personas" />
                     </td>
                     <td>
-                        <asp:Button ID="Button2" runat="server" Text="Roles" />
+                        <asp:Button ID="Button2" runat="server" Text="Roles" OnClick="Button2_Click" />
                     </td>
                     <td>
                         <asp:Button ID="Button5" runat="server" Text="Estados" />
