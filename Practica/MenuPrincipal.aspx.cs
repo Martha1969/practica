@@ -14,9 +14,15 @@ namespace Practica
 
         }
 
+<<<<<<< HEAD
         protected void Button8_Click(object sender, EventArgs e)
         {
             Response.Redirect("PreguntasFrecuentes.aspx");
+=======
+        protected void BtnPersonas_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WFPersonas.aspx");
+>>>>>>> d8c79fe9947a85e8a6f601cbb43e9c849248fd78
         }
     }
 }

@@ -13,7 +13,7 @@
             <table style="width:100%;">
                 <tr>
                     <td>
-                        <asp:Button ID="Button1" runat="server" Text="Personas" />
+                        <asp:Button ID="BtnPersonas" runat="server" Text="Personas" OnClick="BtnPersonas_Click" />
                     </td>
                     <td>
                         <asp:Button ID="Button2" runat="server" Text="Roles" />
