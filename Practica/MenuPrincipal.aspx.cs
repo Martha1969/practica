@@ -14,6 +14,7 @@ namespace Practica
 
         }
 
+<<<<<<< HEAD
 
         protected void Button8_Click(object sender, EventArgs e)
         {
@@ -25,5 +26,11 @@ namespace Practica
             Response.Redirect("WFPersonas.aspx");
         }
 
+=======
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WfRoles.aspx");
+        }
+>>>>>>> c488f09d622a3aac82f82f200cff515c8a83d1c4
     }
 }

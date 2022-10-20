@@ -70,7 +70,11 @@
     <Content Include="MenuPrincipal.aspx" />
     <Content Include="PreguntasFrecuentes.aspx" />
     <Content Include="Web.config" />
+<<<<<<< HEAD
     <Content Include="WFPersonas.aspx" />
+=======
+    <Content Include="WfRoles.aspx" />
+>>>>>>> c488f09d622a3aac82f82f200cff515c8a83d1c4
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MenuPrincipal.aspx.cs">
@@ -88,12 +92,21 @@
       <DependentUpon>PreguntasFrecuentes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="WFPersonas.aspx.cs">
       <DependentUpon>WFPersonas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WFPersonas.aspx.designer.cs">
       <DependentUpon>WFPersonas.aspx</DependentUpon>
+=======
+    <Compile Include="WfRoles.aspx.cs">
+      <DependentUpon>WfRoles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WfRoles.aspx.designer.cs">
+      <DependentUpon>WfRoles.aspx</DependentUpon>
+>>>>>>> c488f09d622a3aac82f82f200cff515c8a83d1c4
     </Compile>
   </ItemGroup>
   <ItemGroup>
