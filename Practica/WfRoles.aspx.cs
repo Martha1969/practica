@@ -7,16 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace Practica
 {
-    public partial class MenuPrincipal : System.Web.UI.Page
+    public partial class WebForm1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
+        protected void BtnAceptar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WfRoles.aspx");
+            Response.Redirect("MenuPrincipal.aspx");
         }
     }
 }
